@@ -51,10 +51,6 @@ body {
   width: 2.5rem;
   margin: 0 0.5rem 0.7rem 1rem;
 }
-.logo:hover {
-  -webkit-animation: shake 1s;
-  animation: shake 1s;
-}
 
 nav a.nav-link {
   font-size: 0.8rem;
@@ -72,9 +68,12 @@ nav ul li {
 }
 
 .navbar-nav > li > a.active,
+.navbar-nav > li > a:focus {
+  border-bottom: 0.1875rem solid var(--primary-orange);
+}
+
 .navbar-nav > li > a:hover,
 .navbar-nav > li > a:focus {
-  /*border-bottom: 0.1875rem solid var(--primary-orange); */
-  background-color: gray;
-  font-weight: bold;
+  background-color: #ffff00;
+  color: #ffc0cb;
 }

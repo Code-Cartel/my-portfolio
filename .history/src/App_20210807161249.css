@@ -51,10 +51,6 @@ body {
   width: 2.5rem;
   margin: 0 0.5rem 0.7rem 1rem;
 }
-.logo:hover {
-  -webkit-animation: shake 1s;
-  animation: shake 1s;
-}
 
 nav a.nav-link {
   font-size: 0.8rem;

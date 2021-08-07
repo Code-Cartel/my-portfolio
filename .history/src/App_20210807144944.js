@@ -4,7 +4,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Navbar from "./components/Navbar";
 
 const App = () => {
-  return <Navbar />;
+  return <h2>Welcome to My Portfolio</h2>;
 };
 
 export default App;
